@@ -1,0 +1,4 @@
+.null-ls*
+*.db
+.mypy_cache
+__pycache__
