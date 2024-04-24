@@ -6,7 +6,7 @@ import os
 def setup_browser():
     options = webdriver.ChromeOptions()
     options.add_experimental_option('excludeSwitches', ['enable-automation'])
-    options.add_experimental_option('detach', True)
+    # options.add_experimental_option('detach', True)
     browser = webdriver.Chrome(options=options)
     browser.maximize_window()
     return browser
