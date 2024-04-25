@@ -2,3 +2,4 @@
 *.db
 .mypy_cache
 __pycache__
+v_sele

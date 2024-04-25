@@ -37,7 +37,7 @@ def main():
     sql_create_messages_table = ''.join(f.readlines())
 
     # Main execution
-    db_file = "chat_history.db"
+    db_file = "local.db"
     conn = create_connection(db_file)
     create_table(conn, sql_create_messages_table)
     conn.close()
